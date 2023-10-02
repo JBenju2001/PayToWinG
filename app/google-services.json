@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "212037292383",
+    "project_id": "pay-to-win-2908e",
+    "storage_bucket": "pay-to-win-2908e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212037292383:android:98fa942a2b5cacbcdce6ea",
+        "android_client_info": {
+          "package_name": "com.example.paytowing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212037292383-c69mqlmvjj2nihol8b2nk2nlqdjp8sa2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz4bUAPbaKOMYJOwwTngJUzERR1M5nSGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212037292383-1vlq5hi9brjimulfkbp6tqruhkl6aash.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

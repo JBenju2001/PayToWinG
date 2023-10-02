@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PayToWinG</string>
+    <string name="nombre">Correo electrónico</string>
+    <string name="nombreHint">Introduce el correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="password2">Repite la contraseña</string>
+    <string name="passwordCambiar">Cambiar contrasenna</string>
+    <string name="passwordHint">Introduce la contraseña</string>
+    <string name="textoPassword">Actualiza la contraseña</string>
+    <string name="antiguaPassword">Mete la antigua contraseña</string>
+    <string name="nuevaPassword">Mete la nueva contraseña</string>
+    <string name="volver">Volver</string>
+    <string name="crearUsuario">Crear usuario</string>
+    <string name="loguear">Loguear</string>
+    <string name="mes1">Enero</string>
+    <string name="mes2">Febrero</string>
+    <string name="mes3">Marzo</string>
+    <string name="mes4">Abril</string>
+    <string name="mes5">Mayo</string>
+    <string name="mes6">Junio</string>
+    <string name="mes7">Julio</string>
+    <string name="mes8">Agosto</string>
+    <string name="mes9">Septiembre</string>
+    <string name="mes10">Octubre</string>
+    <string name="mes11">Noviembre</string>
+    <string name="mes12">Diciembre</string>
+    <string name="VisualizarGastos">Visualizar datos</string>
+    <string name="AñadirGastos">Añadir gastos</string>
+    <string name="Cambiar">Cambiar</string>
+    <string name="NuevoUsuario">Inserta los datos del nuevo usuario</string>
+    <string name="Grafico">Gráfico</string>
+    <string name="Correcto">Correcto</string>
+    <string name="recuperar">Recuperar</string>
+</resources>

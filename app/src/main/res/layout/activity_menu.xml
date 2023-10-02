@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/buttonGrafico"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/Grafico"
+        app:icon="@android:drawable/ic_menu_sort_by_size"
+        app:layout_constraintEnd_toEndOf="@+id/buttonVisualizar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonVisualizar"
+        app:layout_constraintTop_toBottomOf="@+id/buttonVisualizar" />
+
+    <TextView
+        android:id="@+id/NombreU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estas dentro"
+        android:textColor="@color/letters"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <Button
+        android:id="@+id/buttonVisualizar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/VisualizarGastos"
+        app:icon="@android:drawable/ic_menu_gallery"
+        app:layout_constraintStart_toStartOf="@+id/NombreU"
+        app:layout_constraintTop_toBottomOf="@+id/NombreU" />
+
+    <Button
+        android:id="@+id/buttonCerrarSesion"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesion"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonAnnadir"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonAnnadir"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAnnadir"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <Button
+        android:id="@+id/buttonAnnadir"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/AñadirGastos"
+        app:icon="@android:drawable/ic_menu_add"
+        app:layout_constraintEnd_toEndOf="@+id/buttonGrafico"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonGrafico"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGrafico" />
+
+    <TextView
+        android:id="@+id/fechaActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/letters"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVisualizar"
+        app:layout_constraintStart_toStartOf="@+id/NombreU"
+        app:layout_constraintTop_toBottomOf="@+id/NombreU"
+        app:layout_constraintVertical_bias="0.268" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
